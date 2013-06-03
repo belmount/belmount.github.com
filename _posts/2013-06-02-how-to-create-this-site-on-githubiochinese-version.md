@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "how to create this site on github.io(Chinese Version)"
-description: ""
+description: "build your github blog using jekyll"
 category: posts
 tags: [github,blog,jekyll,bootstrap]
 ---
