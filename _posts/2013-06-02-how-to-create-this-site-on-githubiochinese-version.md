@@ -3,7 +3,7 @@ layout: post
 title: "how to create this site on github.io(Chinese Version)"
 description: "build your github blog using jekyll"
 category: posts
-tags: [github,blog,jekyll,bootstrap]
+tags: [github, blog, jekyll, bootstrap]
 ---
 {% include JB/setup %}
 

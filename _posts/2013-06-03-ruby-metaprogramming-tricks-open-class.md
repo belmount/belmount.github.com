@@ -3,7 +3,7 @@ layout: post
 title: "Ruby Metaprogramming Tricks Open Class"
 description: "Open class in Ruby"
 category: Ruby
-tags: [metaprogamming, ruby]
+tags: [metaprogramming, ruby]
 ---
 {% include JB/setup %}
 
@@ -32,7 +32,7 @@ Ruby 的 Class 不是一经定义就无法修改，相反Class 是可以随时�
 
 ### Open 有风险，Writing 需谨慎
 
-为了避免 ABC码农乱搞对象的事情的重复发生，码程序的时候务必要一停，二看，三通过。
+为了避免 ABC码农乱搞对象的事情重复发生，码程序的时候务必要一停，二看，三通过。
 首先要理解Ruby的对象模型，也就是 Class是干嘛的， Module是扮演什么角色。Kernel 和 Basic Object 又是哪路的。
 
 所以对一个Class open之前，先打听下它是什么背景。具体问话如下：
