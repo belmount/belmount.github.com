@@ -1,0 +1,4 @@
+use texam_development
+db.discusses.count();
+db.discusses.find({'_id':ObjectId("51ac50d12f4ac81e70000241")}, {'user':1});
+db.discusses.find({'_id':ObjectId("51ac50d12f4ac81e70000241")});
