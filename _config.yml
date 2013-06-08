@@ -114,7 +114,9 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : sina
+    sina:
+      content_id : '56bf82d8dc19de69'
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
