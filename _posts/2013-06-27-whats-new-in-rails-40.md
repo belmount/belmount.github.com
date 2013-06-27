@@ -37,15 +37,15 @@ ActiveSupport::Queue
 
 Rails.queue.push(LongRunOperation.new)
 
-## [Turbolinks](https://github.com/rails/turbolinks/)
+## Turbolinks
 
 这个东西据说是在app内部link点击时，通过javascript 只load body和head 里的title，而不变更浏览器当前页面的实例，所以会提升页面访问。它只会在GET method 下起作用。
 
-## [Cache Digests](https://github.com/rails/cache_digests)
+## Cache Digests
 
 在view中控制fragment cache是个比较复杂的操作，cache digests为每个进入缓存的fragment view自动添加摘要--digest,大大简化页面的缓存操作。
 
-## [ActionController::Live](http://edgeapi.rubyonrails.org/classes/ActionController/Live.html)
+## ActionController::Live
 
 rails web socket的实现，用于实时和网页程序交换信息。
 
